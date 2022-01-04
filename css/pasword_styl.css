@@ -1,0 +1,167 @@
+body{
+margin: 0px;
+padding: 0px;
+}
+nav{
+height: 70px;
+/*border: 2px solid red;*/
+background-color: black;
+}
+#search i{
+font-size: 20px;
+color:  #ffffff;
+}
+/*#facebook_logo{
+  font-size: 35px;
+  margin-top: 9px;
+  margin-left: 330px;
+  color:  #ffffff;
+}*/
+#search input{
+padding: 10px;
+padding-right: 300px;
+border-radius:35px;
+margin-top: 15px;
+}
+::placeholder {
+  color: #4d4d4d;
+  text-align: left;
+}
+#search{
+margin-left: 630px;
+}
+#logo_banha img{
+  height: 60px;
+  width: 50px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+#text_banha h1{
+  color: #ffffff;
+  margin-left: 10px;
+  font-style: italic;
+}
+#text_banha {
+  float: left;
+}
+#logo_banha{
+  float: left;
+}
+section{
+  background-color: #a6a6a6;
+}
+#menue{
+border: 1px solid #404040;
+height: 57px;
+background-color: #404040;
+}
+#menue ul{
+list-style: none;
+}
+#menue ul li{
+display: inline;
+margin-left:125px ;
+}
+#menue ul li a{
+text-decoration: none;
+color: white;
+font-size: 20px;
+font-weight: bold;
+font-style: italic;
+font-family: monospace;
+}
+#menue ul li a:hover{
+text-decoration: underline black;
+/*font-size: 16px;*/
+border: 1px solid black;
+padding: 10px;
+/*background-color:black;*/
+}
+#password_sheck{
+  height: 430px;
+  margin-left: 400px;
+  margin-top: 200px;
+}
+#password_sheck label{
+  margin-left: 250px;
+  margin-top: 200px;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: cursive;
+}
+#password_sheck input{
+  width:400px;
+  height:50px;
+  margin-left: 200px;
+  margin-top: 20px;
+  border-style: groove;
+  border-radius: 20px;
+}
+#password_sheck button{
+  width:200px;
+  height:35px;
+  margin-left: 300px;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: cursive;
+  color: #ffffff;
+  background-color: black;
+}
+#password_sheck button:hover{
+  text-decoration: underline white;
+}
+#tale{
+  background-color: black;
+  height: 160px;
+}
+#tale_logoes h2{
+  color: hsl(80, 0%, 80%) ;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: oblique;
+  margin-left: 50px;
+  margin-top:10;
+}
+#tale_logoes i{
+  margin-top: 10px;
+  margin-left: 50px;
+  color: white ;
+  font-size: 30px;
+}
+#tale_logoes{
+  float: left;
+}
+#tale_content{
+  float: right;
+}
+#tale_content h2{
+  color: hsl(80, 0%, 80%) ;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: oblique;
+  margin-top: 18px;
+  margin-left: 690px;
+}
+#tale_content a{
+  text-decoration: none;
+  color: hsl(80, 0%, 80%);
+  font-size: 20px;
+  font-weight: bold;
+  font-style: oblique;
+  margin-left: 700px;
+}
+#tale_content a:hover{
+  color: #ffffff;
+}
+#tale_content p{
+  color: hsl(80, 0%, 80%);
+  font-size: 15px;
+  font-weight: bold;
+  font-style: oblique;
+  margin-top: 1px;
+  margin-right: 550px;
+}
